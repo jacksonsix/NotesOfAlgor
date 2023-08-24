@@ -1,0 +1,14 @@
+union find  --- connectivity
+Basic operations:
+union (insert , grow, update, delete), 
+find-if-connected ( query)
+
+Basic data-structure:
+Set ( of nodes).
+
+1.  the intermediate queue of nodes, can be used to get the path .
+
+
+Problem model:  node
+problem relation:  is-connected-to  relation , between nodes
+relation characters:  reflexive, sysmetric, transitive
