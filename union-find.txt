@@ -12,3 +12,26 @@ Set ( of nodes).
 Problem model:  node
 problem relation:  is-connected-to  relation , between nodes
 relation characters:  reflexive, sysmetric, transitive
+
+Data structure:
+1. object maps to integers.
+
+2. integers belong to the same set, have the same number as ID
+
+
+Above is for quick-find. query get response easy/fast
+
+
+quick-union. how to union 2 sets fast ?
+
+array is used like a list (array is used to represent a forest). 
+each points to its parent. 
+
+
+use , make a balanced tree. 
+
+keep weight , number of the tree node.  so when it is query it is ready.
+
+Weighted-tree-merge
+
+path compression to make the tree height smaller,  occur when try to find root.
